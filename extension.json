@@ -1,30 +1,33 @@
 {
-	"name": "SandboxLink",
+	"name": "UploadsLink",
 	"author": [
-		"Bartosz Dziewoński"
+		"Bartosz Dziewoński",
+		"Rainer Rillke"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:SandboxLink",
-	"descriptionmsg": "sandboxlink-desc",
+	"url": "https://www.mediawiki.org/wiki/Extension:UploadsLink",
+	"descriptionmsg": "uploadslink-desc",
 	"license-name": "MIT",
 	"type": "other",
 	"MessagesDirs": {
-		"SandboxLink": [
+		"UploadsLink": [
 			"i18n"
 		]
 	},
 	"AutoloadClasses": {
-		"SandboxLinkHooks": "SandboxLinkHooks.php"
+		"UploadsLinkHooks": "UploadsLinkHooks.php"
 	},
 	"Hooks": {
-		"SkinPreloadExistence": [
-			"SandboxLinkHooks::onSkinPreloadExistence"
-		],
 		"PersonalUrls": [
-			"SandboxLinkHooks::onPersonalUrls"
+			"UploadsLinkHooks::onPersonalUrls"
+		],
+		"BaseTemplateToolbox": [
+			"UploadsLinkHooks::onBaseTemplateToolbox"
 		]
 	},
 	"config": {
-		"SandboxLinkDisableAnon": true
+		"UploadsLinkDisableAnon": true,
+		"UploadsLinkEnablePersonalLink": true,
+		"UploadsLinkEnableRelevantUserLink": true
 	},
 	"manifest_version": 1
 }

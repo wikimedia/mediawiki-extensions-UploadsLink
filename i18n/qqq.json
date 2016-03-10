@@ -1,14 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby",
-			"Shirayuki"
+			"Rillke"
 		]
 	},
-	"sandboxlink-desc": "{{desc|name=SandboxLink|url=https://www.mediawiki.org/wiki/Extension:SandboxLink}}",
-	"sandboxlink-subpage-name": "Name of the subpage where user's sandbox will be created. For example, 'sandbox' means that the link in personal tools menu will point to \"User:Example/sandbox\".\n{{Identical|Sandbox}}",
-	"sandboxlink-portlet-label": "Label of the link in personal tools menu.\n\nThe tooltip for the link is {{msg-mw|Tooltip-pt-sandbox}}.\n{{Identical|Sandbox}}",
-	"tooltip-pt-sandbox": "Tooltip of the link in personal tools menu.",
-	"sandboxlink-editintro-pagename": "{{ignore}}\nTitle of the page that will be used as the 'editintro' parameter in the link in personal tools menu. '-' means the parameter won't be added.",
-	"sandboxlink-preload-pagename": "{{ignore}}\nTitle of the page that will be used as the 'preload' parameter in the link in personal tools menu. '-' means the parameter won't be added."
+	"uploadslink-desc": "{{desc|name=UploadsLink|url=https://www.mediawiki.org/wiki/Extension:UploadsLink}}",
+	"uploadslink-portlet-label": "Label of the link in personal tools menu.\n\nThe tooltip for the link is {{msg-mw|Tooltip-pt-uploads}}.\n{{Identical|Uploads}}",
+	"tooltip-pt-uploads": "Tooltip of the link in personal tools menu.",
+	"uploadslink-toobox-label": "Label of the link in Tools box.\n\nThe tooltip for the link is {{msg-mw|Tooltip-tb-uploads}}.",
+	"tooltip-tb-uploads": "Tooltip of the link in Tools box."
 }
