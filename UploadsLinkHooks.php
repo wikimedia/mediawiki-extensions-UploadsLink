@@ -123,6 +123,7 @@ class UploadsLinkHooks {
 	 *
 	 * @param BaseTemplate $template
 	 * @param array $toolbox
+	 * @return bool Always true
 	 */
 	public static function onBaseTemplateToolbox( BaseTemplate $baseTemplate, array &$toolbox ) {
 		global $wgUploadsLinkEnableRelevantUserLink;
