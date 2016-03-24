@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"uploadslink-desc": "Ajoute un lien vers la liste des téléchargements de l’utilisateur au menu des outils personnalisé et un lien vers la liste des téléchargements de l’utilisateur pertinents à la boîte Outils.",
+	"uploadslink-portlet-label": "Téléchargements",
+	"tooltip-pt-uploads": "Liste des fichiers que vous avez téléchargé",
+	"uploadslink-toobox-label": "Téléchargements de l’{{GENDER:$1|utilisateur|utilisatrice}}",
+	"tooltip-tb-uploads": "Une liste des téléchargements effectués par {{GENDER:$1|cet utilisateur|cette utilisatrice}}"
+}

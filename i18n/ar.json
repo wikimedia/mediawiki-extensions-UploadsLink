@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"uploadslink-portlet-label": "المرفوعات",
+	"uploadslink-toobox-label": "مرفوعات {{GENDER:$1|المستخدم|المستخدمة}}"
+}
