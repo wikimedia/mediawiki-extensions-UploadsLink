@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Luk3"
+		]
+	},
+	"uploadslink-desc": "Adiciona um link para a listagem de envios do usuário para o menu de ferramentas pessoais e um link para a listagem de envios do usuário relevante para a caixa de Ferramentas.",
+	"uploadslink-portlet-label": "Envios",
+	"tooltip-pt-uploads": "Lista de arquivos que você enviou",
+	"uploadslink-toobox-label": "Envios {{GENDER:$1|do usuário|da usuária}}",
+	"tooltip-tb-uploads": "Uma lista de envios por {{GENDER:$1|este usuário|esta usuária}}"
+}

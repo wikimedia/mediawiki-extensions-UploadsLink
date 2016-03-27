@@ -5,5 +5,7 @@
 		]
 	},
 	"uploadslink-portlet-label": "المرفوعات",
-	"uploadslink-toobox-label": "مرفوعات {{GENDER:$1|المستخدم|المستخدمة}}"
+	"tooltip-pt-uploads": "قائمة الملفات التي رفعتها",
+	"uploadslink-toobox-label": "مرفوعات {{GENDER:$1|المستخدم|المستخدمة}}",
+	"tooltip-tb-uploads": "قائمة بمرفوعات {{GENDER:$1|هذا المستخدم|هذه المستخدمة}}"
 }

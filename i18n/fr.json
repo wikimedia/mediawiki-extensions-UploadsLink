@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Orlodrim"
 		]
 	},
-	"uploadslink-desc": "Ajoute un lien vers la liste des téléchargements de l’utilisateur au menu des outils personnalisé et un lien vers la liste des téléchargements de l’utilisateur pertinents à la boîte Outils.",
-	"uploadslink-portlet-label": "Téléchargements",
-	"tooltip-pt-uploads": "Liste des fichiers que vous avez téléchargé",
-	"uploadslink-toobox-label": "Téléchargements de l’{{GENDER:$1|utilisateur|utilisatrice}}",
-	"tooltip-tb-uploads": "Une liste des téléchargements effectués par {{GENDER:$1|cet utilisateur|cette utilisatrice}}"
+	"uploadslink-desc": "Ajoute un lien vers la liste des imports de l’utilisateur au menu personnel, ainsi qu’un lien vers la liste des imports d’autres utilisateurs à la boîte Outils quand on consulte leur page.",
+	"uploadslink-portlet-label": "Imports",
+	"tooltip-pt-uploads": "Liste des fichiers que vous avez importés",
+	"uploadslink-toobox-label": "Imports de l’{{GENDER:$1|utilisateur|utilisatrice}}",
+	"tooltip-tb-uploads": "Une liste des imports effectués par {{GENDER:$1|cet utilisateur|cette utilisatrice}}"
 }

@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rillke"
+			"Rillke",
+			"Liuxinyu970226"
 		]
 	},
 	"uploadslink-desc": "{{desc|name=UploadsLink|url=https://www.mediawiki.org/wiki/Extension:UploadsLink}}",
-	"uploadslink-portlet-label": "Label of the link in personal tools menu.\n\nThe tooltip for the link is {{msg-mw|Tooltip-pt-uploads}}.\n{{Identical|Uploads}}",
+	"uploadslink-portlet-label": "Label of the link in personal tools menu.\n\nThe tooltip for the link is {{msg-mw|Tooltip-pt-uploads}}.\n{{Identical|Upload}}",
 	"tooltip-pt-uploads": "Tooltip of the link in personal tools menu.",
 	"uploadslink-toobox-label": "Label of the link in Tools box. \n\nParameters:\n* $1 - username\n\nThe tooltip for the link is {{msg-mw|Tooltip-tb-uploads}}.\n\nSee also:\n* {{msg-mw|Contributions}}",
 	"tooltip-tb-uploads": "Tooltip of the link in Tools box.\n\nParameters:\n* $1 - username\n\nSee also:\n* {{msg-mw|Tooltip-t-contributions}}"

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikahama"
+		]
+	},
+	"uploadslink-portlet-label": "Lataukset",
+	"tooltip-pt-uploads": "Luettelo lataamistasi tiedostoista",
+	"uploadslink-toobox-label": "{{GENDER:$1|User}} lataukset"
+}
