@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Orlodrim"
+			"Orlodrim",
+			"Wladek92"
 		]
 	},
-	"uploadslink-desc": "Ajoute un lien vers la liste des imports de l’utilisateur au menu personnel, ainsi qu’un lien vers la liste des imports d’autres utilisateurs à la boîte Outils quand on consulte leur page.",
+	"uploadslink-desc": "Ajoute un lien vers la liste des imports de l’utilisateur au menu personnel, ainsi qu’un lien vers la liste des imports d’autres utilisateurs à la boîte Outils.",
 	"uploadslink-portlet-label": "Imports",
 	"tooltip-pt-uploads": "Liste des fichiers que vous avez importés",
 	"uploadslink-toobox-label": "Imports de l’{{GENDER:$1|utilisateur|utilisatrice}}",

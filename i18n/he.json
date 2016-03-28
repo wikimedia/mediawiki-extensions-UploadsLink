@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"LaG roiL"
+		]
+	},
+	"uploadslink-portlet-label": "העלאות",
+	"tooltip-pt-uploads": "רשימת קבצים שהעלית",
+	"tooltip-tb-uploads": "רשימת ההעלאות של {{GENDER:$1|משתמש זה|משתמשת זו}}"
+}
