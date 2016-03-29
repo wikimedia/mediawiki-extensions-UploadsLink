@@ -4,6 +4,7 @@
 			"Beta16"
 		]
 	},
+	"uploadslink-desc": "Aggiunge un collegamento all'elenco dei caricamenti dell'utente nel menu degli strumenti personali, e un collegamento all'elenco dei caricamenti rilevanti dell'utente nella casella Strumenti.",
 	"uploadslink-portlet-label": "Caricamenti",
 	"tooltip-pt-uploads": "Elenco dei file che hai caricato",
 	"uploadslink-toobox-label": "Caricamenti {{GENDER:$1|utente}}",
