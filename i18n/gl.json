@@ -4,6 +4,7 @@
 			"Elisardojm"
 		]
 	},
+	"uploadslink-desc": "Engade unha ligazón no menú de ferramentas persoais á lista de subas do usuario e unha ligazón na caixa de ferramentas á lista de subas relevantes do usuario.",
 	"uploadslink-portlet-label": "Cargas",
 	"tooltip-pt-uploads": "Lista de ficheiros que subeu",
 	"uploadslink-toobox-label": "Subidas {{GENDER:$1|do usuario|da usuaria}}",
