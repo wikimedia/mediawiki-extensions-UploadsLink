@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vitorvicentevalente"
+		]
+	},
+	"uploadslink-portlet-label": "Carregamentos",
+	"tooltip-tb-uploads": "Uma lista de carregamentos {{GENDER:$1|deste utilizador|desta utilizadora|deste(a) utilizador(a)}}"
+}
