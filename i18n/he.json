@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"LaG roiL",
-			"Guycn2"
+			"Guycn2",
+			"Amire80"
 		]
 	},
 	"uploadslink-portlet-label": "העלאות",
 	"tooltip-pt-uploads": "רשימת קבצים שהעלית",
-	"uploadslink-toobox-label": "העלאות של ה{{GENDER:$1|משתמש|משתמשת}}",
+	"uploadslink-toobox-label": "העלאות {{GENDER:$1|המשתמש|המשתמשת}}",
 	"tooltip-tb-uploads": "רשימת ההעלאות של {{GENDER:$1|משתמש זה|משתמשת זו}}"
 }
