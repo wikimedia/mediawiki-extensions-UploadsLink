@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sealle"
+		]
+	},
+	"uploadslink-portlet-label": "Загрузки",
+	"tooltip-pt-uploads": "Список загруженных вами файлов",
+	"uploadslink-toobox-label": "Загрузки {{GENDER:$1|участника|участницы}}",
+	"tooltip-tb-uploads": "Список загрузок {{GENDER:$1|этого участника|этой участницы}}"
+}
