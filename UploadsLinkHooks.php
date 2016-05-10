@@ -32,14 +32,14 @@ class UploadsLinkHooks {
 		$username = $skin->getUser()->getName();
 		$title = self::getUploadsTitle( $username );
 
-		$href = $title->getLocalURL( array( 'ilshowall' => '1' ) );
+		$href = $title->getLocalURL( [ 'ilshowall' => '1' ] );
 
-		return array(
+		return [
 			'id' => 'pt-uploads',
 			'text' => $skin->msg( 'uploadslink-portlet-label' )->text(),
 			'href' => $href,
 			'active' => $title->equals( $currentTitle ),
-		);
+		];
 	}
 
 	/**
@@ -63,7 +63,7 @@ class UploadsLinkHooks {
 
 		$link = self::makePersonalUploadsLink( $skin );
 
-		$newPersonalUrls = array();
+		$newPersonalUrls = [];
 		$done = false;
 
 		// Insert our link before the link to user contribs.
@@ -101,18 +101,18 @@ class UploadsLinkHooks {
 
 		$currentTitle = $skin->getTitle();
 
-		$href = $title->getLocalURL( array( 'ilshowall' => '1' ) );
+		$href = $title->getLocalURL( [ 'ilshowall' => '1' ] );
 
 		// Although the user name might not be used in the message directly,
 		// it is used to distinguish between feminine and masculine form
 		// in some languages.
-		return array(
+		return [
 			'id' => 'tb-uploads',
 			'text' => $skin->msg( 'uploadslink-toobox-label' )->params( $rootUser )->text(),
 			'href' => $href,
 			'active' => $title->equals( $currentTitle ),
 			'tooltip-params' => [ $rootUser ],
-		);
+		];
 	}
 
 	/**
@@ -138,7 +138,7 @@ class UploadsLinkHooks {
 			return true;
 		}
 
-		$newToolbox = array();
+		$newToolbox = [];
 		$done = false;
 
 		// Insert our link before the link to user contribs.
