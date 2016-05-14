@@ -4,7 +4,7 @@
 			"Macofe"
 		]
 	},
-	"uploadslink-desc": "Agrega un enlace en el menú de herramientas personales a la lista de subidas del usuario y un enlace en la caja de herramientas a la lista de subidas relevantes del usuario.",
+	"uploadslink-desc": "Agrega un enlace en el menú de herramientas personales a la lista de subidas del usuario actual y un enlace en el menú de herramientas lateral a la lista de subidas relevantes del usuario.",
 	"uploadslink-portlet-label": "Subidas",
 	"tooltip-pt-uploads": "Lista de archivos que has subido",
 	"uploadslink-toobox-label": "Subidas {{GENDER:$1|del usuario|de la usuaria}}",
