@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Snævar"
+		]
+	},
+	"uploadslink-desc": "Bætir við tengli við upphlöð núverandi notenda við persónustikuna og tengli við upphlöð viðkomandi notanda í hliðarstikunni.",
+	"uploadslink-portlet-label": "Upphlöð",
+	"tooltip-pt-uploads": "Listi yfir skrár sem þú hefur halið inn",
+	"uploadslink-toobox-label": "Upphöl {{GENDER:$1|notanda}}",
+	"tooltip-tb-uploads": "Listi yfir upphöl frá þessum {{GENDER:$1|notanda}}"
+}
