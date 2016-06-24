@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"uploadslink-portlet-label": "업로드",
+	"tooltip-pt-uploads": "사용자가 올린 파일 목록",
+	"uploadslink-toobox-label": "{{GENDER:$1|사용자}} 업로드",
+	"tooltip-tb-uploads": "이 {{GENDER:$1|사용자}}가 올린 파일 목록"
+}
