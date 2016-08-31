@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Romaine"
+			"Romaine",
+			"Sjoerddebruin"
 		]
 	},
-	"tooltip-pt-uploads": "Lijst van bestanden die je hebt geüpload"
+	"tooltip-pt-uploads": "Lijst van bestanden die je hebt geüpload",
+	"uploadslink-toobox-label": "Uploads door {{GENDER:$1|gebruiker}}"
 }
