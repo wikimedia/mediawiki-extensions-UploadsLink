@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vriullop"
+		]
+	},
+	"uploadslink-portlet-label": "Penjades",
+	"uploadslink-toobox-label": "Penjades de {{GENDER:$1|l'usuari|la usuària}}"
+}
