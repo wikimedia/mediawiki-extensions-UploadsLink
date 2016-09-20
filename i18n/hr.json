@@ -5,5 +5,7 @@
 		]
 	},
 	"uploadslink-portlet-label": "postavljene datoteke",
-	"tooltip-pt-uploads": "Popis datoteka koje ste postavili"
+	"tooltip-pt-uploads": "Popis datoteka koje ste postavili",
+	"uploadslink-toobox-label": "Postavljene datoteke {{GENDER:$1|suradnika|suradnice}}",
+	"tooltip-tb-uploads": "Popis postavljenih datoteka {{GENDER:$1|suradnika|suradnice}}"
 }
