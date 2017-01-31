@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Romaine",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Mainframe98"
 		]
 	},
+	"uploadslink-portlet-label": "Uploads",
 	"tooltip-pt-uploads": "Lijst van bestanden die je hebt geüpload",
-	"uploadslink-toobox-label": "Uploads door {{GENDER:$1|gebruiker}}"
+	"uploadslink-toobox-label": "Uploads door {{GENDER:$1|gebruiker}}",
+	"tooltip-tb-uploads": "Een lijst van uploads door deze {{GENDER:$1|gebruiker}}"
 }
