@@ -4,5 +4,6 @@
 			"StanProg"
 		]
 	},
-	"uploadslink-portlet-label": "Качвания"
+	"uploadslink-portlet-label": "Качвания",
+	"tooltip-pt-uploads": "Списък на файлове, които сте качили"
 }
