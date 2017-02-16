@@ -5,5 +5,6 @@
 		]
 	},
 	"uploadslink-portlet-label": "Качвания",
-	"tooltip-pt-uploads": "Списък на файлове, които сте качили"
+	"tooltip-pt-uploads": "Списък на файлове, които сте качили",
+	"uploadslink-toobox-label": "{{GENDER:$1|Потребителски}} качвания"
 }
