@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Luk3"
+			"Luk3",
+			"Felipe L. Ewald"
 		]
 	},
-	"uploadslink-desc": "Adiciona um link para a listagem de envios do usuário para o menu de ferramentas pessoais e um link para a listagem de envios do usuário relevante para a caixa de Ferramentas.",
+	"uploadslink-desc": "Adiciona um link para a lista de uploads do usuário atual para o menu de ferramentas pessoais e um link para a lista de upload do usuário relevante para o menu Ferramentas da barra lateral.",
 	"uploadslink-portlet-label": "Envios",
 	"tooltip-pt-uploads": "Lista de arquivos que você enviou",
 	"uploadslink-toobox-label": "Envios {{GENDER:$1|do usuário|da usuária}}",
