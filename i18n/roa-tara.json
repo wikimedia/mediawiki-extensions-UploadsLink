@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"uploadslink-portlet-label": "Carecaminde",
+	"tooltip-pt-uploads": "Elenghe de le file ca è carecate",
+	"uploadslink-toobox-label": "Carecaminde de l'{{GENDER:$1|utende}}",
+	"tooltip-tb-uploads": "'N'elenghe de carecaminde de stu {{GENDER:$1|utende}}"
+}
