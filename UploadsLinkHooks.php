@@ -48,8 +48,8 @@ class UploadsLinkHooks {
 	 * Possibly add a link to the page where the current user's uploads listing
 	 * is to personal tools menu.
 	 *
-	 * @param array $personalUrls
-	 * @param Title $title (unused)
+	 * @param array &$personalUrls
+	 * @param Title &$title (unused)
 	 * @param Skin $skin
 	 * @return bool true
 	 */
@@ -121,8 +121,8 @@ class UploadsLinkHooks {
 	 * Possibly add a link to the page where the relvant user's uploads listing
 	 * is to toolbox menu.
 	 *
-	 * @param BaseTemplate $template
-	 * @param array $toolbox
+	 * @param BaseTemplate $baseTemplate
+	 * @param array &$toolbox
 	 * @return bool Always true
 	 */
 	public static function onBaseTemplateToolbox( BaseTemplate $baseTemplate, array &$toolbox ) {
