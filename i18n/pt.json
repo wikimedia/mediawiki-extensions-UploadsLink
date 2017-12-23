@@ -5,7 +5,7 @@
 			"Hamilton Abreu"
 		]
 	},
-	"uploadslink-desc": "Adiciona um link para a lista de carregamentos do utilizador atual ao menu de ferramentas pessoais, e um link para a lista de carregamentos do utilizador relevante ao menu de ferramentas da barra lateral.",
+	"uploadslink-desc": "Adiciona uma hiperligação para a lista de carregamentos do utilizador atual ao menu de ferramentas pessoais, e uma hiperligação para a lista de carregamentos do utilizador relevante ao menu de ferramentas da barra lateral",
 	"uploadslink-portlet-label": "Carregamentos",
 	"tooltip-pt-uploads": "Lista de ficheiros que carregou",
 	"uploadslink-toobox-label": "Carregamentos {{GENDER:$1|do utilizador|da utilizadora}}",
