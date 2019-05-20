@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Renardo"
+			"Renardo",
+			"Mirin"
 		]
 	},
-	"uploadslink-desc": "Aldonas al la persona il-menuo kaj al la ilaro ligilojn al la listo de alŝutaĵoj de la uzanto.",
+	"uploadslink-desc": "Aldoni, al la persona kaj flankpanela il-menuoj, ligilojn al la listo de alŝutaĵoj de la aktuala uzanto",
 	"uploadslink-portlet-label": "Alŝutaĵoj",
 	"tooltip-pt-uploads": "Listo de dosieroj kiujn vi alŝutis",
 	"uploadslink-toobox-label": "Alŝutaĵoj de la {{GENDER:$1|uzanto}}",
