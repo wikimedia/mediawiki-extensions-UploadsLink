@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Luk3",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Luk3"
 		]
 	},
 	"uploadslink-desc": "Adiciona um link para a lista de uploads do usuário atual para o menu de ferramentas pessoais e um link para a lista de upload do usuário relevante para o menu Ferramentas da barra lateral.",

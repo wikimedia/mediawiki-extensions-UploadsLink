@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Martin Urbanec",
 			"Mormegil",
-			"Urbanecm",
-			"Martin Urbanec"
+			"Urbanecm"
 		]
 	},
 	"uploadslink-desc": "Přidává odkaz na seznam souborů načtených aktuálním uživatelem do nabídky osobních nástrojů a odkaz na seznam souborů načtených příslušným uživatelem do postranního menu Nástroje.",

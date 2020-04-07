@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Darklanlan",
-			"Afaz"
+			"Afaz",
+			"Darklanlan"
 		]
 	},
 	"uploadslink-desc": "現在の利用者のアップロード一覧へのリンクを個人用ツールメニューに追加し、関連する利用者のアップロード一覧へのリンクをサイドバーのツールメニューに追加する",
