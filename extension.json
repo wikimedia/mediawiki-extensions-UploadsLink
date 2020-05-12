@@ -25,9 +25,18 @@
 		]
 	},
 	"config": {
-		"UploadsLinkDisableAnon": true,
-		"UploadsLinkEnablePersonalLink": true,
-		"UploadsLinkEnableRelevantUserLink": true
+		"UploadsLinkDisableAnon": {
+			"value": true
+		},
+		"UploadsLinkEnablePersonalLink": {
+			"value": true
+		},
+		"UploadsLinkEnableRelevantUserLink": {
+			"value": true
+		}
 	},
-	"manifest_version": 1
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	}
 }
