@@ -20,8 +20,8 @@
 		"PersonalUrls": [
 			"UploadsLinkHooks::onPersonalUrls"
 		],
-		"BaseTemplateToolbox": [
-			"UploadsLinkHooks::onBaseTemplateToolbox"
+		"SidebarBeforeOutput": [
+			"UploadsLinkHooks::onSidebarBeforeOutput"
 		]
 	},
 	"config": {

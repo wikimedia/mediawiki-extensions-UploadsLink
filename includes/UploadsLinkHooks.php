@@ -80,6 +80,7 @@ class UploadsLinkHooks {
 		}
 
 		$personalUrls = $newPersonalUrls;
+
 		return true;
 	}
 
@@ -88,7 +89,7 @@ class UploadsLinkHooks {
 	 * relative to current title and in current language.
 	 *
 	 * @param Skin $skin For context
-	 * @return array|null Link descriptor in a format accepted by BaseTemplateToolbox hook
+	 * @return array|null Link descriptor or null if link cannot be created
 	 */
 	private static function makeRelevantUserUploadsLink( Skin $skin ) {
 		$user = $skin->getRelevantUser();
@@ -116,45 +117,44 @@ class UploadsLinkHooks {
 	}
 
 	/**
-	 * BaseTemplateToolbox hook handler.
+	 * SidebarBeforeOutput hook handler.
 	 *
 	 * Possibly add a link to the page where the relvant user's uploads listing
 	 * is to toolbox menu.
 	 *
-	 * @param BaseTemplate $baseTemplate
-	 * @param array &$toolbox
-	 * @return bool Always true
+	 * @param Skin $skin
+	 * @param array &$sidebar
+	 * @return bool|void
 	 */
-	public static function onBaseTemplateToolbox( BaseTemplate $baseTemplate, array &$toolbox ) {
+	public static function onSidebarBeforeOutput( Skin $skin, array &$sidebar ) {
 		global $wgUploadsLinkEnableRelevantUserLink;
 
 		if ( !$wgUploadsLinkEnableRelevantUserLink ) {
-			return true;
+			return false;
 		}
 
-		$skin = $baseTemplate->getSkin();
 		$link = self::makeRelevantUserUploadsLink( $skin );
 		if ( !$link ) {
-			return true;
+			return false;
 		}
 
 		$newToolbox = [];
 		$done = false;
 
 		// Insert our link before the link to user contribs.
-		// If the link to contribs is missing, insert at the end.
-		foreach ( $toolbox as $key => $value ) {
+		foreach ( $sidebar['TOOLBOX'] as $key => $value ) {
 			if ( $key === 'contributions' ) {
 				$newToolbox['uploads'] = $link;
 				$done = true;
 			}
 			$newToolbox[$key] = $value;
 		}
-		if ( !$done ) {
-			$newToolbox['uploads'] = $link;
-		}
 
-		$toolbox = $newToolbox;
-		return true;
+		$sidebar['TOOLBOX'] = $newToolbox;
+
+		if ( !$done ) {
+			// If the link was not inserted, just insert it at the end.
+			$sidebar['TOOLBOX']['uploads'] = $link;
+		}
 	}
 }
