@@ -124,18 +124,18 @@ class UploadsLinkHooks {
 	 *
 	 * @param Skin $skin
 	 * @param array &$sidebar
-	 * @return bool|void
+	 * @return void
 	 */
-	public static function onSidebarBeforeOutput( Skin $skin, array &$sidebar ) {
+	public static function onSidebarBeforeOutput( Skin $skin, array &$sidebar ): void {
 		global $wgUploadsLinkEnableRelevantUserLink;
 
 		if ( !$wgUploadsLinkEnableRelevantUserLink ) {
-			return false;
+			return;
 		}
 
 		$link = self::makeRelevantUserUploadsLink( $skin );
 		if ( !$link ) {
-			return false;
+			return;
 		}
 
 		$newToolbox = [];
