@@ -36,6 +36,7 @@ class UploadsLinkHooks {
 
 		return [
 			'id' => 'pt-uploads',
+			'icon' => 'imageGallery',
 			'text' => $skin->msg( 'uploadslink-portlet-label' )->text(),
 			'href' => $href,
 			'active' => $title->equals( $currentTitle ),
