@@ -8,7 +8,13 @@
  * @license MIT
  */
 
-class UploadsLinkHooks {
+namespace MediaWiki\Extension\UploadsLink;
+
+use Skin;
+use SpecialPage;
+use Title;
+
+class Hooks {
 	/**
 	 * Return a Title for the uploads page of the user provided.
 	 *
