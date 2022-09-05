@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pymouss"
+			"Pymouss",
+			"Huñvreüs"
 		]
 	},
 	"uploadslink-portlet-label": "Enporzhioù",
-	"tooltip-pt-uploads": "Roll restroù enporzhiet ganeoc'h"
+	"tooltip-pt-uploads": "Roll restroù pellgaset ganeoc'h"
 }
