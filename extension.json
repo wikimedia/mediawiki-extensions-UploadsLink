@@ -17,8 +17,8 @@
 		"MediaWiki\\Extension\\UploadsLink\\": "includes/"
 	},
 	"Hooks": {
-		"PersonalUrls": [
-			"MediaWiki\\Extension\\UploadsLink\\Hooks::onPersonalUrls"
+		"SkinTemplateNavigation::Universal": [
+			"MediaWiki\\Extension\\UploadsLink\\Hooks::onSkinTemplateNavigation"
 		],
 		"SidebarBeforeOutput": [
 			"MediaWiki\\Extension\\UploadsLink\\Hooks::onSidebarBeforeOutput"

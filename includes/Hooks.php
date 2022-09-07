@@ -55,12 +55,11 @@ class Hooks {
 	 * Possibly add a link to the page where the current user's uploads listing
 	 * is to personal tools menu.
 	 *
-	 * @param array &$personalUrls
-	 * @param Title &$title (unused)
 	 * @param Skin $skin
+	 * @param array &$links
 	 * @return bool true
 	 */
-	public static function onPersonalUrls( array &$personalUrls, Title &$title, Skin $skin ) {
+	public static function onSkinTemplateNavigation( Skin $skin, array &$links ) {
 		global $wgUploadsLinkDisableAnon, $wgUploadsLinkEnablePersonalLink;
 
 		if ( !$wgUploadsLinkEnablePersonalLink
@@ -72,6 +71,7 @@ class Hooks {
 
 		$newPersonalUrls = [];
 		$done = false;
+		$personalUrls = $links['user-menu'] ?? [];
 
 		// Insert our link before the link to user contribs.
 		// If the link to contribs is missing, insert at the end.
@@ -86,7 +86,7 @@ class Hooks {
 			$newPersonalUrls['uploads'] = $link;
 		}
 
-		$personalUrls = $newPersonalUrls;
+		$links['user-menu'] = $newPersonalUrls;
 
 		return true;
 	}
