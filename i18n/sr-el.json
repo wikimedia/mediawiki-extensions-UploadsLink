@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"uploadslink-portlet-label": "Otpremanja",
+	"tooltip-pt-uploads": "Spisak datoteka koje ste poslali",
+	"uploadslink-toobox-label": "{{GENDER:$1|Otpremanja korisnika|Otpremanja korisnice|Korisnička otpremanja}}"
+}
