@@ -5,7 +5,7 @@
 			"Janezdrilc"
 		]
 	},
-	"uploadslink-desc": "Doda povezavo do seznama naložitev trenutnega uporabnika v meni osebnih orodij in povezavo do seznama naložitev ustreznega uporabnika v meni Orodja v stranski vrstici",
+	"uploadslink-desc": "Doda povezavo do seznama naložitev trenutnega uporabnika v meni osebnih orodij in povezavo do seznama naložitev ustreznega uporabnika v meni Orodja v stranski letvici",
 	"uploadslink-portlet-label": "Naložitve",
 	"tooltip-pt-uploads": "Seznam datotek, ki si jih naložil",
 	"uploadslink-toobox-label": "{{GENDER:$1|Uporabnikove|Uporabničine|Uporabnikove}} naložitve",
