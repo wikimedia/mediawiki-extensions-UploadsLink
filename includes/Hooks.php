@@ -63,7 +63,7 @@ class Hooks {
 		global $wgUploadsLinkDisableAnon, $wgUploadsLinkEnablePersonalLink;
 
 		if ( !$wgUploadsLinkEnablePersonalLink
-			|| ( $wgUploadsLinkDisableAnon && $skin->getUser()->isAnon() ) ) {
+			|| ( $wgUploadsLinkDisableAnon && !$skin->getUser()->isNamed() ) ) {
 				return true;
 		}
 
