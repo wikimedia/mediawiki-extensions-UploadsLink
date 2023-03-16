@@ -92,7 +92,7 @@ class Hooks {
 	}
 
 	/**
-	 * Return a link descriptor for the page where the relvant user's uploads listing is,
+	 * Return a link descriptor for the page where the relevant user's uploads listing is,
 	 * relative to current title and in current language.
 	 *
 	 * @param Skin $skin For context
@@ -126,7 +126,7 @@ class Hooks {
 	/**
 	 * SidebarBeforeOutput hook handler.
 	 *
-	 * Possibly add a link to the page where the relvant user's uploads listing
+	 * Possibly add a link to the page where the relevant user's uploads listing
 	 * is to toolbox menu.
 	 *
 	 * @param Skin $skin
