@@ -10,9 +10,9 @@
 
 namespace MediaWiki\Extension\UploadsLink;
 
+use MediaWiki\Title\Title;
 use Skin;
 use SpecialPage;
-use Title;
 
 class Hooks {
 	/**
