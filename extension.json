@@ -17,12 +17,13 @@
 		"MediaWiki\\Extension\\UploadsLink\\": "includes/"
 	},
 	"Hooks": {
-		"SkinTemplateNavigation::Universal": [
-			"MediaWiki\\Extension\\UploadsLink\\Hooks::onSkinTemplateNavigation"
-		],
-		"SidebarBeforeOutput": [
-			"MediaWiki\\Extension\\UploadsLink\\Hooks::onSidebarBeforeOutput"
-		]
+		"SkinTemplateNavigation::Universal": "main",
+		"SidebarBeforeOutput": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\UploadsLink\\Hooks"
+		}
 	},
 	"config": {
 		"UploadsLinkDisableAnon": {

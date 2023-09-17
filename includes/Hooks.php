@@ -8,13 +8,20 @@
  * @license MIT
  */
 
+// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+
 namespace MediaWiki\Extension\UploadsLink;
 
+use MediaWiki\Hook\SidebarBeforeOutputHook;
+use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\Title\Title;
 use Skin;
 use SpecialPage;
 
-class Hooks {
+class Hooks implements
+	SkinTemplateNavigation__UniversalHook,
+	SidebarBeforeOutputHook
+{
 	/**
 	 * Return a Title for the uploads page of the user provided.
 	 *
@@ -57,14 +64,13 @@ class Hooks {
 	 *
 	 * @param Skin $skin
 	 * @param array &$links
-	 * @return bool true
 	 */
-	public static function onSkinTemplateNavigation( Skin $skin, array &$links ) {
+	public function onSkinTemplateNavigation__Universal( $skin, &$links ): void {
 		global $wgUploadsLinkDisableAnon, $wgUploadsLinkEnablePersonalLink;
 
 		if ( !$wgUploadsLinkEnablePersonalLink
 			|| ( $wgUploadsLinkDisableAnon && !$skin->getUser()->isNamed() ) ) {
-				return true;
+				return;
 		}
 
 		$link = self::makePersonalUploadsLink( $skin );
@@ -87,8 +93,6 @@ class Hooks {
 		}
 
 		$links['user-menu'] = $newPersonalUrls;
-
-		return true;
 	}
 
 	/**
@@ -133,7 +137,7 @@ class Hooks {
 	 * @param array &$sidebar
 	 * @return void
 	 */
-	public static function onSidebarBeforeOutput( Skin $skin, array &$sidebar ): void {
+	public function onSidebarBeforeOutput( $skin, &$sidebar ): void {
 		global $wgUploadsLinkEnableRelevantUserLink;
 
 		if ( !$wgUploadsLinkEnableRelevantUserLink ) {
