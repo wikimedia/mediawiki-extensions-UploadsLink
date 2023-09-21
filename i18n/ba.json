@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Айсар"
+			"Айсар",
+			"З. ӘЙЛЕ"
 		]
 	},
-	"uploadslink-portlet-label": "Тейәүҙәр",
-	"tooltip-pt-uploads": "Һеҙ ҡуйған файлдар исемлеге"
+	"uploadslink-portlet-label": "Йөкләүҙәр",
+	"tooltip-pt-uploads": "Һеҙ йөкләгән файлдар исемлеге"
 }
