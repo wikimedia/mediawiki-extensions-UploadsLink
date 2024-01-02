@@ -14,9 +14,9 @@ namespace MediaWiki\Extension\UploadsLink;
 
 use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use Skin;
-use SpecialPage;
 
 class Hooks implements
 	SkinTemplateNavigation__UniversalHook,
