@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Snævar",
-			"Sveinn í Felli"
+			"Sveinn í Felli",
+			"Stefán Örvar Sigmundsson"
 		]
 	},
-	"uploadslink-desc": "Bætir við tengli innsendingarlista núverandi notenda við persónulegu verkfærastikuna og tengli við innsendingarlista viðkomandi notanda í hliðarstikunni.",
+	"uploadslink-desc": "Bætir við tengli í upphleðslulista núverandi notanda á persónulega verkfæravalmyndina og tengli í upphleðslulista viðeigandi notanda á hliðarstiku Verkfæravalmyndarinnar",
 	"uploadslink-portlet-label": "Innsendingar",
 	"tooltip-pt-uploads": "Listi yfir skrár sem þú hefur halið inn",
 	"uploadslink-toobox-label": "Upphöl {{GENDER:$1|notanda}}",
