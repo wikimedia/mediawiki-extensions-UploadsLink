@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
+			"Dream Indigo",
 			"Horcrux92"
 		]
 	},
@@ -9,5 +10,5 @@
 	"uploadslink-portlet-label": "caricamenti",
 	"tooltip-pt-uploads": "Elenco dei file che hai caricato",
 	"uploadslink-toobox-label": "Caricamenti {{GENDER:$1|utente}}",
-	"tooltip-tb-uploads": "Un elenco di caricamenti di questo {{GENDER:$1|utente}}"
+	"tooltip-tb-uploads": "Un elenco di caricamenti di {{GENDER:$1|questo utente|questa utente|quest'utente}}"
 }
