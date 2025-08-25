@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saurmandal"
+		]
+	},
+	"uploadslink-toobox-label": "{{GENDER:$1|सदस्य}} के अपलोड्स",
+	"tooltip-tb-uploads": "{{GENDER:$1|इस सदस्य}} के अपलोड्स की सूची"
+}
