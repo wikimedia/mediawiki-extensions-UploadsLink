@@ -6,7 +6,7 @@
 		]
 	},
 	"uploadslink-portlet-label": "Postavljanja",
-	"tooltip-pt-uploads": "Spisak datoteka koje ste postavili",
+	"tooltip-pt-uploads": "Lista datoteka koje ste postavili",
 	"uploadslink-toobox-label": "Postavljene datoteke {{GENDER:$1|korisnika|korisnice}}",
 	"tooltip-tb-uploads": "Lista postavljenih datoteka {{GENDER:$1|ovog korisnika|ove korisnice}}"
 }
