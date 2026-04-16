@@ -10,8 +10,8 @@
 
 namespace MediaWiki\Extension\UploadsLink;
 
-use MediaWiki\Hook\SidebarBeforeOutputHook;
-use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
+use MediaWiki\Skin\Hook\SidebarBeforeOutputHook;
+use MediaWiki\Skin\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\Skin\Skin;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
